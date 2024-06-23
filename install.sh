@@ -34,21 +34,21 @@ export GOPATH=~/go
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/nvim/lazyvim.json >~/.config/nvim/lazyvim.json
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/nvim/lua/plugins/colorscheme.lua >~/.config/nvim/lua/plugins/colorscheme.lua
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/nvim/lua/plugins/coverage.lua >~/.config/nvim/lua/plugins/coverage.lua
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/nvim/lua/plugins/ollama.lua >~/.config/nvim/lua/plugins/ollama.lua
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/nvim/lua/config/options.lua >~/.config/nvim/lua/config/options.lua
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/nvim/lazyvim.json >~/.config/nvim/lazyvim.json
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/nvim/lua/plugins/colorscheme.lua >~/.config/nvim/lua/plugins/colorscheme.lua
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/nvim/lua/plugins/coverage.lua >~/.config/nvim/lua/plugins/coverage.lua
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/nvim/lua/plugins/ollama.lua >~/.config/nvim/lua/plugins/ollama.lua
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/nvim/lua/config/options.lua >~/.config/nvim/lua/config/options.lua
 
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/starship.toml >~/.config/starship.toml
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/starship.toml >~/.config/starship.toml
 
 mkdir ~/.scripts
 curl -L git.io/antigen >~/.scripts/antigen.zsh
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/.ideavimrc >~/.ideavimrc
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/.zshrc >>~/.zshrc
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/.tmux.conf >~/.tmux.conf
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/.ideavimrc >~/.ideavimrc
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/.zshrc >>~/.zshrc
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/.tmux.conf >~/.tmux.conf
 
-curl -L https://raw.githubusercontent.com/wellingtonlope/dotfiles/main/scripts/nvim_paste >~/.scripts/nvim_paste
+curl -L https://raw.githubusercontent.com/felipepnh/notebook-dotfiles/main/scripts/nvim_paste >~/.scripts/nvim_paste
 chmod +x ~/.scripts/nvim_paste
 
 echo "$SUDO apt update -y && $SUDO apt upgrade -y && $SUDO apt autoremove -y && brew upgrade" >~/.scripts/up
